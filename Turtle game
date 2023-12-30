@@ -1,30 +1,3 @@
-## A Coin Tossing Experiment
-
-import random
-
-coin = ['heads', 'tails']
-sample_space = []
-for i in range(1,11):
-    toss = random.choice(coin)
-    sample_space.append(toss)
-    tails = []
-    heads = []
-    for i in sample_space:
-        if i == 'tails':
-            tails.append(1)
-        else:
-            heads.append(1)
-    
-#print(sample_space)
-
-#if len(tails) > 5:
- #   print('There were more tails')
-#elif len(tails) < 5:
- #   print('There were more heads')
-#else:
- #   print('Same number of heads and tails occured!')
-
-
 ## RACING TURTLES
 
 import turtle 
