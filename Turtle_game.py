@@ -1,5 +1,5 @@
 ## RACING TURTLES
-
+import random
 import turtle 
 
 s = turtle.getscreen()
